@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 5%;
+}
+.form-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todos-wrapper{
+    margin-top: 50px;
+}
+.note{
+    width: 75% !important;
+}
+.importance-checkbox{
+    width: 75% !important;
+    margin-top: 2px;
+}
+.date-picker{
+    margin-top: 5px !important;
+}
+.save-button{
+    margin-top: 10px;
+    display: block;
+}
+.clear-button{
+    margin-left: 5px;
+    margin-top: 10px;
+}
